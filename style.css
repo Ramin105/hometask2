@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imgbox {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://www.scuba.com/blog/wp-content/uploads/2017/05/shutterstock_480784465-825x465.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  span {
+    font-size: 22px;
+  }
+  h1 {
+    font-size: 42px;
+  }
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorscheme {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.primary {
+  background-color: #037ef3;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondary {
+  background-color: #6c757d;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success {
+  background-color: #49a942;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  background-color: #0dd3ff;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warning {
+  background-color: #ffc20e;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.danger {
+  background-color: #ed1c24;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indigo {
+  background-color: #8e43e7;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark {
+  background-color: #343a40;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teal {
+  background-color: #2dde98;
+  width: 33%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  width: 66%;
+  color: #394a6d;
+  padding: 25px 7px;
+  h1 {
+    font-weight: bold;
+  }
+}
+.container {
+  width: 66%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  width: 48%;
+  background-image: url(https://www.scuba.com/blog/wp-content/uploads/2017/05/shutterstock_480784465-825x465.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.textbox {
+  color: white;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  background-color: #49a942;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 15px;
+  border: 0;
+  margin: 15px;
+}
+.container2 {
+  width: 66%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+.card2 {
+  width: 31.7%;
+  transition: 0.3s;
+
+}
+
+.description,
+.name {
+  color: black;
+}
+
+.imgboxc {
+  position: relative;
+}
+.imgboxc img {
+  width: 100%;
+}
+.profil {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  left: 40%;
+}
+
+.profil img {
+  width: 60px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.textboxc {
+  color: white;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+opacity: 0.6;
+  h2 {
+    padding-bottom: 20px;
+  }
+}
+
+.card:hover,
+.card2:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.btns{
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 13px;
+    margin: auto;
+    gap: 10px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.view{
+  background-color: #8E43E7;  
+  border-radius: 5px;
+}
+
+.learn{
+    background-color: #2DDE98;
+}
+
